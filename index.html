@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Women-friendly website for choosing dresses, ornaments, and accessories.">
+  <title>Chic Choices</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#dresses">Dresses</a></li>
+        <li><a href="#ornaments">Ornaments</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h1>Welcome to Chic Choices ! </h1>
+      <p>Your one-stop destination for trendy dresses, stylish ornaments, and elegant accessories.</p>
+    </section>
+
+    <section id="dresses" class="category">
+      <h2>Dresses</h2>
+      <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.1g-5Frlp8C0aFiGfYv46HgHaLH&pid=Api&P=0&h=180"alt="Elegant Red Dress">
+        <h3>Elegant Red Dress</h3>
+        <p>Perfect for any occasion.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.YOd2HywSv_QR1OG17ZedWgHaL2&pid=Api&P=0&h=180" alt="Summer Floral Dress">
+        <h3>Summer Floral Dress</h3>
+        <p>Light and breezy for the warm days.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://image.hm.com/assets/hm/0c/ca/0cca9d6856ceb9d6a489fba5b925ba8285390135.jpg?imwidth=1536" alt="Casual Blue Dress">
+        <h3>Casual Blue Dress</h3>
+        <p>Comfortable and stylish.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+        
+
+      </div>
+    </section>
+
+    <section id="ornaments" class="category">
+      <h2>Ornaments</h2>
+      <div class="product">
+        <img src="https://i.etsystatic.com/28358681/r/il/4591e3/2973601884/il_fullxfull.2973601884_4b3f.jpg"alt="Gold Necklace">
+        <h3>Gold Necklace</h3>
+        <p>Elegant gold necklace for a sophisticated look.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://i.etsystatic.com/26314192/r/il/075fd0/2814259405/il_1588xN.2814259405_9z0i.jpg" alt="Silver Earrings">
+        <h3>Silver Earrings</h3>
+        <p>Shiny silver earrings to complete your look.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZoN4cLqPLGqrQ5WyLT4c90z_jHUOXjwxegw&s" alt="Pearl Bracelet">
+        <h3>Pearl Bracelet</h3>
+        <p>Classic pearl bracelet for timeless elegance.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="accessories" class="category">
+      <h2><strong>Accessories</strong></h2>
+      <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.4j9qkXn0EeQn6cfxQSr2yAHaI4&pid=Api&P=0&h=180" alt="Silk Scarf">
+        <h3>Silk Scarf</h3>
+        <p>Soft silk scarf in beautiful patterns.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.zUspjtk_SJHyAYpfXkvw6QHaHV&pid=Api&P=0&h=180" alt="Stylish Handbag">
+        <h3>Stylish Handbag</h3>
+        <p>A perfect companion for every outfit.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_JaGr8yILujkaaYo4TB7D0WZ-2no7klx8ng&s"alt="Classic Sunglasses">
+        <h3>Classic Sunglasses</h3>
+        <p>Protect your eyes with style.</p>
+        <button class="add-to-cart" data-price="20">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="place-order" class="order-summary">
+      <h2>Place Your Order</h2>
+      <div class="order-details">
+        <p><strong"></p>
+        <p><strong></p>
+        <button class="place-order-btn">HAVE A NICE DAY !</button>
+      </div>
+    </section>
+
+    <section id="thank-you-message" class="thank-you hidden">
+      <h2>Thank You!</h2>
+      <p>We appreciate your order and send it your way with lots of love! ❤️</p>
+      <p>Hope to see you again soon!</p>
+    </section>
+
+
+    <div id="order-section">
+      <div id="cart-container">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0.00</p>
+      </div>
+    </div>
+    
+    
+    
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chic Choices. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
