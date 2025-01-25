@@ -1,4 +1,4 @@
-shopping-website 🎯
+# Shopping-Website 🎯
 
 
 ## Basic Details
@@ -19,10 +19,10 @@ it’s related to “Made for girls, made by girls,” it might emphasize a focu
 
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+create a website for shopping for girls
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+women friendly website
 
 ## Technical Details
 ### Technologies/Components Used
@@ -36,13 +36,13 @@ For Software:
 ![ss4](https://github.com/user-attachments/assets/edb9e4a6-0e79-4bc5-a3eb-623149eb3ebd)
 
 # Video
-
+https://github.com/user-attachments/assets/070fda10-bad8-4900-95de-ec21ab9ece26
 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Anamika J Ancheril: html and javascript
+- Alphonsa Antex: css
+  
 
 ---
 Made with ❤️ at TinkerHub
